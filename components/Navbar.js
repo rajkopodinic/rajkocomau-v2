@@ -9,7 +9,7 @@ const Navbar = () => {
                         <a className='text-xl font-bold'>rajkopodinic</a>
                     </Link>
                 </div>
-                <div className='hidden sm:flex sm:flex-row sm:items-center'>
+                <div className='hidden'>
                     <Link href='/'>
                         <a className='px-8'>About</a>
                     </Link>

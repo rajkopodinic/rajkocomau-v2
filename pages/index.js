@@ -47,7 +47,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='w-full bg-gray-100 p-10'>
+      <div className='hidden w-full bg-gray-100 p-10'>
         <div className='flex flex-col sm:flex-row max-w-6xl items-center mx-auto text-gray-900'>
           <div className='p-10'>
             <h2 className='text-3xl font-bold'>About me</h2>
