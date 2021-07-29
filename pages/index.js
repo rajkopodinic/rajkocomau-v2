@@ -1,82 +1,60 @@
-import Head from 'next/head'
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+    <div className="bg-gray-50 text-gray-900">
+      <div className="flex flex-col w-full h-1/2 sm:h-1/2 items-center justify-center py-12 px-10 text-center">
+        <div>
+          <Image
+            className="rounded-full"
+            src="/images/rajko.jpeg"
+            alt="Rajko Podinic Profile Image"
+            width={100}
+            height={100}
+          />
         </div>
-      </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
+        <p className="my-6">Hi, my name is</p>
+        <h1 className="text-4xl sm:text-6xl font-bold">Rajko Podinic.</h1>
+        <h1 className="text-4xl sm:text-6xl font-bold">
+          I build things for the web.
+        </h1>
+        <p className="sm:w-2/4 mt-6">
+          I’m a fullstack web developer based in Sydney, Australia specializing
+          in building (and occasionally designing) exceptional websites,
+          applications, and everything in between.
+        </p>
+      </div>
+
+      <div className="w-full bg-gray-50 p-10">
+        <div className="flex flex-col sm:flex-row max-w-6xl items-center mx-auto text-left text-white">
+          <div className="flex-1 w-full p-10 bg-gradient-to-br from-blue-500 to-blue-700 mx-4 my-4 rounded-md">
+            <h2 className="text-3xl font-bold">5+</h2>
+            <p>Years Experience</p>
+            <p>Full Stack Web Development</p>
+          </div>
+          <div className="flex-1 w-full p-10 bg-gradient-to-br from-yellow-300 to-yellow-500 mx-4 my-4 rounded-md">
+            <h1 className="text-3xl font-bold">Javascript</h1>
+            <p>Expert</p>
+            <p>My Favourite Language</p>
+          </div>
+          <div className="flex-1 w-full p-10 bg-gradient-to-br from-blue-500 to-blue-700 mx-4 my-4 rounded-md">
+            <h1 className="text-3xl font-bold">UTS</h1>
+            <p>Class of 2019</p>
+            <p>Bachelor of Information Technology</p>
+          </div>
+        </div>
+      </div>
+
+      <div className='w-full bg-gray-100 p-10'>
+        <div className='flex flex-col sm:flex-row max-w-6xl items-center mx-auto text-gray-900'>
+          <div className='p-10'>
+            <h2 className='text-3xl font-bold'>About me</h2>
+          </div>
+        </div>
+      </div>
+
     </div>
-  )
+  );
 }
