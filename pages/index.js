@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-gray-50 text-gray-900">
+    <div className="bg-gradient-to-br from-gray-800 to-gray-900 text-gray-400">
       <div className="flex flex-col w-full sm:max-w-6xl h-1/2 sm:h-1/2 items-center justify-center py-12 px-10 mx-auto text-center">
         <div>
           <Image
@@ -16,33 +16,33 @@ export default function Home() {
         </div>
 
         <p className="my-6">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-6xl font-bold">Rajko Podinic.</h1>
+        <h1 className="text-4xl sm:text-6xl font-bold text-white">Rajko Podinic.</h1>
         <h1 className="text-4xl sm:text-6xl font-bold">
           I build things for the web.
         </h1>
-        <p className="sm:w-2/4 mt-6">
+        <p className="sm:w-2/4 mt-6 text-gray-400">
           I’m a fullstack web developer based in Sydney, Australia specializing
           in building (and occasionally designing) exceptional websites,
           applications, and everything in between.
         </p>
       </div>
 
-      <div className="w-full bg-gray-50 p-10">
+      <div className="w-full p-10">
         <div className="flex flex-col sm:flex-row max-w-6xl items-center mx-auto text-left text-white">
-          <div className="flex-1 w-full p-10 bg-gradient-to-br from-red-500 to-red-700 mx-4 my-4 rounded-md">
+          <div className="flex-1 w-full p-10 bg-gradient-to-br from-gray-800 to-gray-900 mx-4 my-4 rounded-md border-2 border-gray-600">
             <h2 className="text-3xl font-bold">5+</h2>
-            <p>Years Experience</p>
-            <p>Full Stack Web Development</p>
+            <p className='text-gray-400'>Years Experience</p>
+            <p className='text-gray-400'>Full Stack Web Development</p>
           </div>
-          <div className="flex-1 w-full p-10 bg-gradient-to-br from-yellow-300 to-yellow-500 mx-4 my-4 rounded-md">
+          <div className="flex-1 w-full p-10 bg-gradient-to-br from-gray-800 to-gray-900 mx-4 my-4 rounded-md border-2 border-gray-600">
             <h1 className="text-3xl font-bold">Javascript</h1>
-            <p>Expert</p>
-            <p>My Favourite Language</p>
+            <p className='text-gray-400'>Expert</p>
+            <p className='text-gray-400'>My Favourite Language</p>
           </div>
-          <div className="flex-1 w-full p-10 bg-gradient-to-br from-blue-500 to-blue-700 mx-4 my-4 rounded-md">
+          <div className="flex-1 w-full p-10 bg-gradient-to-br from-gray-800 to-gray-900 mx-4 my-4 rounded-md border-2 border-gray-600">
             <h1 className="text-3xl font-bold">UTS</h1>
-            <p>Class of 2019</p>
-            <p>Bachelor of Information Technology</p>
+            <p className='text-gray-400'>Class of 2019</p>
+            <p className='text-gray-400'>Bachelor of Information Technology</p>
           </div>
         </div>
       </div>
@@ -66,8 +66,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='w-full bg-gray-50 p-10'>
-        <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto text-gray-900'>
+      <div className='w-full p-10 text-gray-400'>
+        <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto '>
           <div className='flex-1 p-10'>
             <h2 className='text-3xl font-bold'>My Experience</h2>
           </div>
@@ -80,7 +80,7 @@ export default function Home() {
             <p>AUG 2020 - PRESENT</p>
           </div>
         </div>
-        <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto text-gray-900'>
+        <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto'>
           <div className='flex-1 p-10'>
           </div>
           <div className='flex-1 p-10'>
@@ -97,7 +97,7 @@ export default function Home() {
             <p>JAN 2016 - JUN 2017</p>
           </div>
         </div>
-        <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto text-gray-900'>
+        <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto'>
           <div className='flex-1 p-10'>
           </div>
           <div className='flex-1 p-10'>
