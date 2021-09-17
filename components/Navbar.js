@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
     return (
-        <div className='flex items-center h-18 py-4 bg-gray-900 text-white'>
+        <div className='flex items-center h-18 py-4 bg-gray-100 text-gray-900'>
             <div className='flex flex-row items-center justify-between max-w-6xl w-full mx-auto px-10'>
                 <div className='items-center'>
                     <Link href='/'>
@@ -11,7 +11,7 @@ const Navbar = () => {
                 </div>
                 <div className='hidden sm:flex sm:items-center'>
                     <Link href='/'>
-                        <a className='px-8 focus:bg-gray-800'>Projects</a>
+                        <a className='px-8 hover:underline'>Projects</a>
                     </Link>
                     <Link href='/experience'>
                         <a className='px-8 hover:underline'>Experience</a>
@@ -24,7 +24,7 @@ const Navbar = () => {
                     </Link>
                     <div>
                         <Link href='/'>
-                            <button className='border-2 rounded-md text-white py-2 px-4 hover:underline'>Resume</button>
+                            <button className='border-2 rounded-md text-gray-900 py-2 px-4 hover:underline'>Resume</button>
                         </Link>
                     </div>
                 </div>

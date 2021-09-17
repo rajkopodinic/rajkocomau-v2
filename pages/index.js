@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-br from-gray-800 to-gray-900 text-gray-400">
+    <div className="bg-gradient-to-br from-gray-50 to-gray-100 text-gray-700">
       <div className="flex flex-col w-full sm:max-w-6xl h-1/2 sm:h-1/2 items-center justify-center py-12 px-10 mx-auto text-center">
         <div>
           <Image
@@ -16,11 +16,11 @@ export default function Home() {
         </div>
 
         <p className="my-6">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-6xl font-bold text-white">Rajko Podinic.</h1>
+        <h1 className="text-4xl sm:text-6xl font-bold text-gray-900">Rajko Podinic.</h1>
         <h1 className="text-4xl sm:text-6xl font-bold">
           I build things for the web.
         </h1>
-        <p className="sm:w-2/4 mt-6 text-gray-400">
+        <p className="sm:w-2/4 mt-6 text-gray-600">
           I’m a fullstack web developer based in Sydney, Australia specializing
           in building (and occasionally designing) exceptional websites,
           applications, and everything in between.
@@ -28,21 +28,21 @@ export default function Home() {
       </div>
 
       <div className="w-full p-10">
-        <div className="flex flex-col sm:flex-row max-w-6xl items-center mx-auto text-left text-white">
-          <div className="flex-1 w-full p-10 bg-gradient-to-br from-gray-800 to-gray-900 mx-4 my-4 rounded-md border-2 border-gray-600">
+        <div className="flex flex-col sm:flex-row max-w-6xl items-center mx-auto text-left text-gray-900">
+          <div className="flex-1 w-full p-10 bg-gradient-to-br from-gray-100 to-gray-200 mx-4 my-4 rounded-md">
             <h2 className="text-3xl font-bold">5+</h2>
-            <p className='text-gray-400'>Years Experience</p>
-            <p className='text-gray-400'>Full Stack Web Development</p>
+            <p className='text-gray-600'>Years Experience</p>
+            <p className='text-gray-600'>Full Stack Web Development</p>
           </div>
-          <div className="flex-1 w-full p-10 bg-gradient-to-br from-gray-800 to-gray-900 mx-4 my-4 rounded-md border-2 border-gray-600">
+          <div className="flex-1 w-full p-10 bg-gradient-to-br from-gray-100 to-gray-200 mx-4 my-4 rounded-md">
             <h1 className="text-3xl font-bold">Javascript</h1>
-            <p className='text-gray-400'>Expert</p>
-            <p className='text-gray-400'>My Favourite Language</p>
+            <p className='text-gray-600'>Expert</p>
+            <p className='text-gray-600'>My Favourite Language</p>
           </div>
-          <div className="flex-1 w-full p-10 bg-gradient-to-br from-gray-800 to-gray-900 mx-4 my-4 rounded-md border-2 border-gray-600">
+          <div className="flex-1 w-full p-10 bg-gradient-to-br from-gray-100 to-gray-200 mx-4 my-4 rounded-md">
             <h1 className="text-3xl font-bold">UTS</h1>
-            <p className='text-gray-400'>Class of 2019</p>
-            <p className='text-gray-400'>Bachelor of Information Technology</p>
+            <p className='text-gray-600'>Class of 2019</p>
+            <p className='text-gray-600'>Bachelor of Information Technology</p>
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='w-full p-10 text-gray-400'>
+      <div className='w-full p-10 text-gray-600'>
         <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto '>
           <div className='flex-1 p-10'>
             <h2 className='text-3xl font-bold'>My Experience</h2>
