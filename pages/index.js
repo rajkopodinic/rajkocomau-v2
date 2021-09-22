@@ -27,41 +27,64 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="w-full p-10">
-        <div className="flex flex-col sm:flex-row max-w-6xl items-center mx-auto text-left text-gray-900">
-          <div className="flex-1 w-full p-10 bg-gradient-to-br from-gray-100 to-gray-200 mx-4 my-4 rounded-md">
+      <div className="w-full p-5">
+        <div className="flex flex-col sm:flex-row max-w-6xl items-center mx-auto text-left text-white">
+          <div className="flex-1 w-full p-10 bg-gradient-to-br from-gray-700 to-gray-900 mx-4 my-4 rounded-md">
             <h2 className="text-3xl font-bold">5+</h2>
-            <p className='text-gray-600'>Years Experience</p>
-            <p className='text-gray-600'>Full Stack Web Development</p>
+            <p className='text-white'>Years Experience</p>
+            <p className='text-white'>Full Stack Web Development</p>
           </div>
-          <div className="flex-1 w-full p-10 bg-gradient-to-br from-gray-100 to-gray-200 mx-4 my-4 rounded-md">
+          <div className="flex-1 w-full p-10 bg-gradient-to-br from-yellow-400 to-yellow-600 mx-4 my-4 rounded-md">
             <h1 className="text-3xl font-bold">Javascript</h1>
-            <p className='text-gray-600'>Expert</p>
-            <p className='text-gray-600'>My Favourite Language</p>
+            <p className='text-white'>Expert</p>
+            <p className='text-white'>My Favourite Language</p>
           </div>
-          <div className="flex-1 w-full p-10 bg-gradient-to-br from-gray-100 to-gray-200 mx-4 my-4 rounded-md">
+          <div className="flex-1 w-full p-10 bg-gradient-to-br from-blue-400 to-blue-600 mx-4 my-4 rounded-md">
             <h1 className="text-3xl font-bold">UTS</h1>
-            <p className='text-gray-600'>Class of 2019</p>
-            <p className='text-gray-600'>Bachelor of Information Technology</p>
+            <p className='text-white'>Class of 2019</p>
+            <p className='text-white'>Bachelor of Information Technology</p>
           </div>
         </div>
       </div>
 
-      <div className='hidden'>
+      <div className='flex px-5 py-10 max-w-6xl mx-auto'>
+        <h2 className='text-3xl font-bold'>Projects</h2>
+      </div>
+
+      <div className=''>
         <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto text-gray-900'>
-          <div className='flex-1 p-10'>
-            <h2 className='text-3xl font-bold'>Projects</h2>
-          </div>
-          <div className="flex-1 w-full p-10 bg-gradient-to-br from-yellow-300 to-yellow-500 mx-4 my-4 rounded-md text-white">
+          <div className="flex-1 p-10 bg-gradient-to-br from-blue-400 to-blue-600 mx-4 my-4 rounded-md text-white">
+            <p className='bg-blue-600 px-2 rounded-sm text-white'>Coming Soon</p>
             <h1 className="text-3xl font-bold">Admin Dashboard</h1>
-            <p>Google Firebase</p>
+            <div className='flex flex-row text-sm text-gray-900 space-x-2 my-2'>
+              <p className='bg-white px-2 rounded-sm'>NextJs</p>
+              <p className='bg-white px-2 rounded-sm'>Firebase</p>
+              <p className='bg-white px-2 rounded-sm'>Sheets</p>
+              <p className='bg-white px-2 rounded-sm'>API</p>
+            </div>
             <p>This project was built as a backend system that powers my blog and content management system for this website.</p>
           </div>
-          <div className="flex-1 w-full p-10 bg-gradient-to-br from-green-600 to-green-800 mx-4 my-4 rounded-md text-white">
-            <h1 className="text-3xl font-bold">Real Estate</h1>
-            <p>Domain Group API</p>
-            <p>Using the Domain Group API as a service, I have built a functioning Real Estate web application which includes search and filtering options.</p>
-            <p>Another Scope of this project was to </p>
+          <div className="flex-1 p-10 bg-gradient-to-br from-green-400 to-green-600 mx-4 my-4 rounded-md text-white">
+            <p className='bg-green-600 px-2 rounded-sm text-white'>Coming Soon</p>
+            <h1 className="text-3xl font-bold">Real Estate App</h1>
+            <div className='flex flex-row text-sm text-gray-900 space-x-2 my-2'>
+              <p className='bg-white px-2 rounded-sm'>NextJs</p>
+              <p className='bg-white px-2 rounded-sm'>Tailwind</p>
+              <p className='bg-white px-2 rounded-sm'>Sheets</p>
+              <p className='bg-white px-2 rounded-sm'>API</p>
+            </div>
+            <p>Using the Domain Group Real Estate API I created a clone of the Domain website.</p>
+          </div>
+          <div className="flex-1 p-10 bg-gradient-to-br from-red-400 to-red-600 mx-4 my-4 rounded-md text-white">
+            <p className='bg-red-600 px-2 rounded-sm text-white'>Coming Soon</p>
+            <h1 className="text-3xl font-bold">Netflix Clone</h1>
+            <div className='flex flex-row text-sm text-gray-900 space-x-2 my-2'>
+              <p className='bg-white px-2 rounded-sm'>NextJs</p>
+              <p className='bg-white px-2 rounded-sm'>CMS</p>
+              <p className='bg-white px-2 rounded-sm'>Firebase</p>
+              <p className='bg-white px-2 rounded-sm'>API</p>
+            </div>
+            <p>Creating a Netflix clone using firebase for authentication and React player for the video player.</p>
           </div>
         </div>
       </div>
