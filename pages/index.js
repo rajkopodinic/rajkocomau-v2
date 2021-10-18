@@ -138,12 +138,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <div className=''>
-        <ul>test</ul>
-        <ul>test</ul>
-      </div>
-
     </div>
   );
 }
