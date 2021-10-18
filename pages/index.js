@@ -89,27 +89,30 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='w-full p-10 text-gray-600'>
+      <div className='w-full p-5 text-gray-600'>
         <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto '>
-          <div className='flex-1 p-10'>
-            <h2 className='text-3xl font-bold'>My Experience</h2>
+          <div className='flex-1 py-5'>
+            <h2 className='text-3xl font-bold'>Experience</h2>
           </div>
-          <div className='flex-1 p-10'>
+          <div className='flex-1 py-5'>
             <h2 className='text-xl font-bold'>Venntifact</h2>
           </div>
-          <div className='flex-1 p-10'>
+          <div className='flex-1 py-5'>
+            <h2 className='text-xl font-bold'>Solutions Consultant</h2>
+            <p>OCT 2021 - PRESENT</p>
+            <br />
             <h2 className='text-xl font-bold'>Associate Consultant /</h2>
             <h2 className='text-xl font-bold'>Front End Developer</h2>
-            <p>AUG 2020 - PRESENT</p>
+            <p>AUG 2020 - OCT 2021</p>
           </div>
         </div>
         <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto'>
-          <div className='flex-1 p-10'>
+          <div className='flex-1 py-5'>
           </div>
-          <div className='flex-1 p-10'>
+          <div className='flex-1 py-5'>
             <h2 className='text-xl font-bold'>ZOZO Marketing</h2>
           </div>
-          <div className='flex-1 p-10'>
+          <div className='flex-1 py-5'>
             <h2 className='text-xl font-bold'>Front End Developer</h2>
             <p>JUN 2019 - AUG 2020</p>
             <br/>
@@ -121,12 +124,12 @@ export default function Home() {
           </div>
         </div>
         <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto'>
-          <div className='flex-1 p-10'>
+          <div className='flex-1 py-5'>
           </div>
-          <div className='flex-1 p-10'>
+          <div className='flex-1 py-5'>
             <h2 className='text-xl font-bold'>ITV Studios Australia</h2>
           </div>
-          <div className='flex-1 p-10'>
+          <div className='flex-1 py-5'>
             <h2 className='text-xl font-bold'>IT Support</h2>
             <p>JAN 2020 - AUG 2020</p>
             <br />
@@ -134,6 +137,11 @@ export default function Home() {
             <p>JAN 2018 - JAN 2020</p>
           </div>
         </div>
+      </div>
+
+      <div className=''>
+        <ul>test</ul>
+        <ul>test</ul>
       </div>
 
     </div>
