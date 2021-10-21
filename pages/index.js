@@ -7,11 +7,10 @@ export default function Home() {
       <div className="flex flex-col w-full sm:max-w-6xl h-1/2 sm:h-1/2 items-center justify-center py-12 px-10 mx-auto text-center">
         <div>
           <Image
-            className="rounded-full"
-            src="/images/rajko.jpeg"
+            src="/images/favicon.png"
             alt="Rajko Podinic Profile Image"
-            width={100}
-            height={100}
+            width={150}
+            height={150}
           />
         </div>
 
@@ -59,7 +58,7 @@ export default function Home() {
             <div className='flex flex-row text-sm text-gray-900 space-x-2 my-2'>
               <p className='bg-white px-2 rounded-sm'>NextJs</p>
               <p className='bg-white px-2 rounded-sm'>Firebase</p>
-              <p className='bg-white px-2 rounded-sm'>Sheets</p>
+              <p className='bg-white px-2 rounded-sm'>Sheetss</p>
               <p className='bg-white px-2 rounded-sm'>API</p>
             </div>
             <p>This project was built as a backend system that powers my blog and content management system for this website.</p>
@@ -89,55 +88,139 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='w-full p-5 text-gray-600'>
-        <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto '>
-          <div className='flex-1 py-5'>
-            <h2 className='text-3xl font-bold'>Experience</h2>
-          </div>
-          <div className='flex-1 py-5'>
-            <h2 className='text-xl font-bold'>Venntifact</h2>
-          </div>
-          <div className='flex-1 py-5'>
-            <h2 className='text-xl font-bold'>Solutions Consultant</h2>
-            <p>OCT 2021 - PRESENT</p>
-            <br />
-            <h2 className='text-xl font-bold'>Associate Consultant /</h2>
-            <h2 className='text-xl font-bold'>Front End Developer</h2>
-            <p>AUG 2020 - OCT 2021</p>
-          </div>
+      <div className='sm:flex px-5 py-10 max-w-6xl mx-auto'>
+        <div className='sm:flex-1 flex'>
+          <h2 className='text-3xl font-bold pb-5'>Experience</h2>
         </div>
-        <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto'>
-          <div className='flex-1 py-5'>
+
+        <div className='sm:flex flex-col space-y-6'>
+          <div className='sm:flex bg-gradient-to-br from-gray-800 to-gray-900 text-white p-5 rounded-md'>
+            <div className='flex-1 pr-4'>
+              <h2 className='text-3xl font-bold pb-5'>Venntifact</h2>
+            </div>
+
+            <div className='flex-1'>
+              <ul className='-space-y-6'>
+                <li className='flex space-x-2 h-32'>
+                  <div className='flex flex-col h-full'>
+                    <div className='flex flex-col h-10 w-10 bg-blue-500 rounded-full items-center justify-center'>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                    </div>
+                    <div className='flex flex-col border-l-4 border-dashed border-blue-300 h-12 ml-4 mt-2'></div>
+                  </div>
+                  <div className='pl-2'>
+                    <h2 className='text-xl font-bold'>Solutions Consultant</h2>
+                    <p>VENNTIFACT</p>
+                    <p>OCT 2021 - PRESENT</p>
+                  </div>
+                </li>
+                <li className='flex space-x-2 h-32'>
+                  <div className='flex flex-col h-full'>
+                    <div className='flex flex-col h-10 w-10 bg-blue-500 rounded-full items-center justify-center'>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                    </div>
+                  </div>
+                  <div className='pl-2'>
+                    <h2 className='text-xl font-bold'>Associate Consultant</h2>
+                    <p>VENNTIFACT</p>
+                    <p>AUG 2020 - OCT 2021</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className='flex-1 py-5'>
-            <h2 className='text-xl font-bold'>ZOZO Marketing</h2>
+
+          <div className='sm:flex bg-gradient-to-br from-gray-800 to-gray-900 text-white p-5 rounded-md'>
+            <div className='flex-1'>
+              <h2 className='text-3xl font-bold pb-5'>ZOZO Marketing</h2>
+            </div>
+
+            <div className='flex-1'>
+              <ul className='-space-y-6'>
+                <li className='flex space-x-2 h-32'>
+                  <div className='flex flex-col h-full'>
+                    <div className='flex flex-col h-10 w-10 bg-blue-500 rounded-full items-center justify-center'>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                    </div>
+                    <div className='flex flex-col border-l-4 border-dashed border-blue-300 h-12 ml-4 mt-2'></div>
+                  </div>
+                  <div className='pl-2'>
+                    <h2 className='text-xl font-bold'>Front End Developer</h2>
+                    <p>ZOZO MARKETING</p>
+                    <p>JUN 2019 - AUG 2020</p>
+                  </div>
+                </li>
+                <li className='flex space-x-2 h-32'>
+                  <div className='flex flex-col h-full'>
+                    <div className='flex flex-col h-10 w-10 bg-blue-500 rounded-full items-center justify-center'>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                    </div>
+                    <div className='flex flex-col border-l-4 border-dashed border-blue-300 h-12 ml-4 mt-2'></div>
+                  </div>
+                  <div className='pl-2'>
+                    <h2 className='text-xl font-bold'>Wordpress Developer</h2>
+                    <p>ZOZO MARKETING</p>
+                    <p>JUN 2017 - JUN 2019</p>
+                  </div>
+                </li>
+                <li className='flex space-x-2 h-32'>
+                  <div className='flex flex-col h-full'>
+                    <div className='flex flex-col h-10 w-10 bg-blue-500 rounded-full items-center justify-center'>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                    </div>
+                  </div>
+                  <div className='pl-2'>
+                    <h2 className='text-xl font-bold'>Marketing Intern</h2>
+                    <p>ZOZO MARKETING</p>
+                    <p>JAN 2016 - JUN 2017</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className='flex-1 py-5'>
-            <h2 className='text-xl font-bold'>Front End Developer</h2>
-            <p>JUN 2019 - AUG 2020</p>
-            <br/>
-            <h2 className='text-xl font-bold'>Wordpress Developer</h2>
-            <p>JUN 2017 - JUN 2019</p>
-            <br/>
-            <h2 className='text-xl font-bold'>Marketing Intern</h2>
-            <p>JAN 2016 - JUN 2017</p>
+
+          <div className='sm:flex bg-gradient-to-br from-gray-800 to-gray-900 text-white p-5 rounded-md'>
+            <div className='flex-1'>
+              <h2 className='text-3xl font-bold pb-5'>ITV Studios Australia</h2>
+            </div>
+
+            <div className='flex-1'>
+              <ul className='-space-y-6'>
+                <li className='flex space-x-2 h-32'>
+                  <div className='flex flex-col h-full'>
+                    <div className='flex flex-col h-10 w-10 bg-blue-500 rounded-full items-center justify-center'>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                    </div>
+                    <div className='flex flex-col border-l-4 border-dashed border-blue-300 h-12 ml-4 mt-2'></div>
+                  </div>
+                  <div className='pl-2'>
+                    <h2 className='text-xl font-bold'>IT Support</h2>
+                    <p>ITV STUDIOS AUSTRALIA</p>
+                    <p>JAN 2020 - AUG 2020</p>
+                  </div>
+                </li>
+                <li className='flex space-x-2 h-32'>
+                  <div className='flex flex-col h-full'>
+                    <div className='flex flex-col h-10 w-10 bg-blue-500 rounded-full items-center justify-center'>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                    </div>
+                  </div>
+                  <div className='pl-2'>
+                    <h2 className='text-xl font-bold'>IT Assistant</h2>
+                    <p>ITV STUDIOS AUSTRALIA</p>
+                    <p>JAN 2018 - JAN 2020</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
+
         </div>
-        <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto'>
-          <div className='flex-1 py-5'>
-          </div>
-          <div className='flex-1 py-5'>
-            <h2 className='text-xl font-bold'>ITV Studios Australia</h2>
-          </div>
-          <div className='flex-1 py-5'>
-            <h2 className='text-xl font-bold'>IT Support</h2>
-            <p>JAN 2020 - AUG 2020</p>
-            <br />
-            <h2 className='text-xl font-bold'>IT Assistant</h2>
-            <p>JAN 2018 - JAN 2020</p>
-          </div>
-        </div>
+
       </div>
+
+
+
     </div>
   );
 }
