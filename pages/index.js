@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-br from-gray-50 to-gray-100 text-gray-700">
+    <div className=" text-gray-700">
       <div className="flex flex-col w-full sm:max-w-6xl h-1/2 sm:h-1/2 items-center justify-center py-12 px-10 mx-auto text-center">
         <div>
           <Image
@@ -52,7 +52,7 @@ export default function Home() {
 
       <div className=''>
         <div className='flex flex-col sm:flex-row max-w-6xl items-top mx-auto text-gray-900'>
-          <div className="flex-1 p-10 bg-gradient-to-br from-blue-400 to-blue-600 mx-4 my-4 rounded-md text-white">
+          <div className="flex-1 p-10 bg-gradient-to-br from-blue-400 to-blue-600 mx-4 my-4 rounded-md text-white shadow-md">
             <p className='bg-blue-600 px-2 rounded-sm text-white'>Coming Soon</p>
             <h1 className="text-3xl font-bold">Admin Dashboard</h1>
             <div className='flex flex-row text-sm text-gray-900 space-x-2 my-2'>
@@ -63,7 +63,7 @@ export default function Home() {
             </div>
             <p>This project was built as a backend system that powers my blog and content management system for this website.</p>
           </div>
-          <div className="flex-1 p-10 bg-gradient-to-br from-green-400 to-green-600 mx-4 my-4 rounded-md text-white">
+          <div className="flex-1 p-10 bg-gradient-to-br from-green-400 to-green-600 mx-4 my-4 rounded-md text-white shadow-md">
             <p className='bg-green-600 px-2 rounded-sm text-white'>Coming Soon</p>
             <h1 className="text-3xl font-bold">Real Estate App</h1>
             <div className='flex flex-row text-sm text-gray-900 space-x-2 my-2'>
@@ -74,7 +74,7 @@ export default function Home() {
             </div>
             <p>Using the Domain Group Real Estate API I created a clone of the Domain website.</p>
           </div>
-          <div className="flex-1 p-10 bg-gradient-to-br from-red-400 to-red-600 mx-4 my-4 rounded-md text-white">
+          <div className="flex-1 p-10 bg-gradient-to-br from-red-400 to-red-600 mx-4 my-4 rounded-md text-white shadow-md">
             <p className='bg-red-600 px-2 rounded-sm text-white'>Coming Soon</p>
             <h1 className="text-3xl font-bold">Netflix Clone</h1>
             <div className='flex flex-row text-sm text-gray-900 space-x-2 my-2'>
@@ -94,9 +94,9 @@ export default function Home() {
         </div>
 
         <div className='sm:flex flex-col space-y-6'>
-          <div className='sm:flex bg-gradient-to-br from-gray-800 to-gray-900 text-white p-5 rounded-md'>
+          <div className='sm:flex bg-gradient-to-br from-white to-gray-50 text-gray-900 p-5 rounded-md shadow-md'>
             <div className='flex-1 pr-4'>
-              <h2 className='text-3xl font-bold pb-5'>Venntifact</h2>
+              <h2 className='text-2xl font-bold pb-5'>Venntifact</h2>
             </div>
 
             <div className='flex-1'>
@@ -130,9 +130,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='sm:flex bg-gradient-to-br from-gray-800 to-gray-900 text-white p-5 rounded-md'>
+          <div className='sm:flex bg-gradient-to-br from-white to-gray-50 text-gray-900 p-5 rounded-md shadow-md'>
             <div className='flex-1'>
-              <h2 className='text-3xl font-bold pb-5'>ZOZO Marketing</h2>
+              <h2 className='text-2xl font-bold pb-5'>ZOZO Marketing</h2>
             </div>
 
             <div className='flex-1'>
@@ -179,9 +179,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='sm:flex bg-gradient-to-br from-gray-800 to-gray-900 text-white p-5 rounded-md'>
+          <div className='sm:flex bg-gradient-to-b from-white to-gray-50 text-gray-900 p-5 rounded-md shadow-md'>
             <div className='flex-1'>
-              <h2 className='text-3xl font-bold pb-5'>ITV Studios Australia</h2>
+              <h2 className='text-2xl font-bold pb-5'>ITV Studios Australia</h2>
             </div>
 
             <div className='flex-1'>
