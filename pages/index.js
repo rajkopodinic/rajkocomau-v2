@@ -96,6 +96,29 @@ export default function Home() {
         <div className='sm:flex flex-col space-y-6'>
           <div className='sm:flex bg-gradient-to-br from-white to-gray-50 text-gray-900 p-5 rounded-md shadow-md'>
             <div className='flex-1 pr-4'>
+              <h2 className='text-2xl font-bold pb-5'>Westpac Group</h2>
+            </div>
+
+            <div className='flex-1'>
+              <ul className='-space-y-6'>
+                <li className='flex space-x-2 h-32'>
+                  <div className='flex flex-col h-full'>
+                    <div className='flex flex-col h-10 w-10 bg-blue-500 rounded-full items-center justify-center'>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                    </div>
+                  </div>
+                  <div className='pl-2'>
+                    <h2 className='text-xl font-bold'>Martech & Analytics Tech Lead</h2>
+                    <p>WESTPAC GROUP</p>
+                    <p>NOV 2021 - PRESENT</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className='sm:flex bg-gradient-to-br from-white to-gray-50 text-gray-900 p-5 rounded-md shadow-md'>
+            <div className='flex-1 pr-4'>
               <h2 className='text-2xl font-bold pb-5'>Venntifact</h2>
             </div>
 
@@ -111,7 +134,7 @@ export default function Home() {
                   <div className='pl-2'>
                     <h2 className='text-xl font-bold'>Solutions Consultant</h2>
                     <p>VENNTIFACT</p>
-                    <p>OCT 2021 - PRESENT</p>
+                    <p>OCT 2021 - NOV 2021</p>
                   </div>
                 </li>
                 <li className='flex space-x-2 h-32'>
