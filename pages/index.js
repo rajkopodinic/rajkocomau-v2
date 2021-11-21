@@ -48,11 +48,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex px-5 py-10 max-w-6xl mx-auto">
+      <div className="flex px-5 py-10 max-w-6xl mx-auto hidden" id="projects">
         <h2 className="text-3xl font-bold">Projects</h2>
       </div>
 
-      <div className="">
+      <div id="projects" className="hidden">
         <div className="flex flex-col sm:flex-row max-w-6xl items-top mx-auto text-gray-900">
           <div className="flex-1 p-10 bg-gradient-to-br from-blue-400 to-blue-600 mx-4 my-4 rounded-md text-white shadow-md">
             <p className="bg-blue-600 px-2 rounded-sm text-white">
